@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TestBlueMixLFDH
+  host: TestBlueMixLFDH
+  disk_quota: 1024M
+  services:
+  - TestBlueMixLFDH-cloudantNoSQLDB
+  - TestBlueMixLFDH-iotf-service
+  - availability-monitoring-auto
